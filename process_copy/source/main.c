@@ -20,6 +20,7 @@ int main(int argc,char* argv[])
 	int blocksize=process_copy_blocksize(argv[1],pronum);
 	process_copy_create(argv[1],argv[2],pronum,blocksize);
 	process_copy_wait();
+	//1234
 	return 0;
 }
 
