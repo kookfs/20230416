@@ -7,7 +7,7 @@
 #include <fcntl.h>
 #include <sys/wait.h>
 
-
+int getB();
 int process_copy_checkpram(int argc,char* srcfile,int pronum);
 int process_copy_blocksize(char* srcfile,int pronum);
 int process_copy_create(char* srcfile,char* destfile,int pronum,int blocksize);
