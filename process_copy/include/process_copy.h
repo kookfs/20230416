@@ -8,6 +8,7 @@
 #include <sys/wait.h>
 
 
+int getA(int a,int b);
 int process_copy_checkpram(int argc,char* srcfile,int pronum);
 int process_copy_blocksize(char* srcfile,int pronum);
 int process_copy_create(char* srcfile,char* destfile,int pronum,int blocksize);
